@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="image">
+			<img id="image">
+		</div>
+
+		<div  class="Informations">
+			<h3 id="author"> Author </h3>
+
+			<i class="fas fa-music"></i>	
+			<p id="music"> Music </p>
+		</div>
+
+		<div class="duration">
+			<input type="range" min="0" max="100" value="0" 
+			onchange="ChangeDuration()" id="inputDuration">
+		</div>
+
+		<div class="players">
+			<button onclick="Return()">
+				<i class="fal fa-fast-backward"></i>
+			</button>
+
+			<button onclick="JustPlay()" id="play">
+				<i class="fas fa-play"></i>
+			</button>
+			
+			<button onclick="Next()">
+				<i class="fal fa-fast-forward"></i>
+			</button>
+		</div>
+	</div>
+
+	<script src="./PlayerLogical/player.js"></script>
+</body>
+</html>
