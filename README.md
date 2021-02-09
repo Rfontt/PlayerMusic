@@ -111,7 +111,7 @@ function JustPlay() {
 ```
 
 - After calling these functions in the function above, we need to create them.
-<br />
+
 - [x] **PlaySong();**
 
 ```
@@ -137,7 +137,7 @@ function PauseSong() {
 }
 ```
 - With all these steps already done, we already have the song starting and pausing, now we need it to come back one song or go to the next one.
-<br />
+
 - [x] **Next();**
 
 ```
