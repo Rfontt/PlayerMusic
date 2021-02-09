@@ -112,7 +112,7 @@ function JustPlay() {
 
 - After calling these functions in the function above, we need to create them.
 <br />
-[x] **PLaySong();**
+- [x] **PLaySong();**
 
 ```
 function PlaySong() {
@@ -124,7 +124,7 @@ function PlaySong() {
 	play.innerHTML = '<i class="fas fa-pause"></i>'
 }
 ```
-[x] **PauseSong();**
+- [x] **PauseSong();**
 
 ```
 function PauseSong() {
