@@ -63,8 +63,7 @@ const All_songs = [
 
 <center><h1> Functions: </h1 </center>
 
--
-The first function is to start the audio, but it still does not play it, it starts every time the page is opened in position 0, that is, the first element will be placed on the screen with its data.
+- The first function is to start the audio, but it still does not play it, it starts every time the page is opened in position 0, that is, the first element will be placed on the screen with its data.
 
 ```
 function load_track(index_no) {
