@@ -138,7 +138,7 @@ function PauseSong() {
 ```
 - With all these steps already done, we already have the song starting and pausing, now we need it to come back one song or go to the next one.
 <br />
-[x] **Next();**
+- [x] **Next();**
 
 ```
 function Next() {
@@ -160,7 +160,7 @@ function Next() {
 	}
 }
 ```
-[x] **Return();**
+- [x] **Return();**
 
 ```
 function Return() {
