@@ -5,10 +5,10 @@ I understand more about manipulating the DOM and this project was made to test t
 
 # Project images:
 
-<center><img src="./ImagensGithub/Track.png"></center>
-<center><img src="./ImagensGithub/TrackStarted.png"></center>
-<center><img src="./ImagensGithub/TrackTwo.png"></center>
-<center><img src="./ImagensGithub/TrackStartedTwo.png"></center>
+<center><img src="./src/github-images/Track.png"></center>
+<center><img src="./src/github-images/TrackStarted.png"></center>
+<center><img src="./src/github-images/TrackTwo.png"></center>
+<center><img src="./src/github-images/TrackStartedTwo.png"></center>
 
 # Explanation project JS:
 

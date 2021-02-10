@@ -1,8 +1,8 @@
-var author = document.querySelector("#author");
-var music = document.querySelector("#music");
-var image = document.querySelector("#image");
-var play = document.querySelector("#play");
-var inputDuration = document.querySelector("#inputDuration");
+let author = document.querySelector("#author");
+let music = document.querySelector("#music");
+let image = document.querySelector("#image");
+let play = document.querySelector("#play");
+let inputDuration = document.querySelector("#inputDuration");
 
 let index_no = 0;
 let time;
@@ -12,20 +12,17 @@ let track = document.createElement('audio');
 const All_songs = [
 	{
 		track_music: "nightcall",
-		img: "image/Kavinsky.jpg",
-		path: "music/nightcall.mp3",
+		img: "./src/image/Kavinsky.jpg",
+		path: "./src/music/nightcall.mp3",
 		name_author: "Kavinsky"
-
 	},
-
 	{
 		track_music: "Friends",
-		img: "image/RexOrange.jpg",
-		path: "music/friends.mp3",
+		img: "./src/image/RexOrange.jpg",
+		path: "./src/music/friends.mp3",
 		name_author: "RexOrange"
 	}
 ];
-
 
 function load_track(index_no) {
 	track.src = All_songs[index_no].path;
@@ -41,7 +38,7 @@ load_track(index_no);
 function JustPlay() {
 	if (playing_song == false) {
 		PlaySong();
-	}else {
+	} else {
 		PauseSong();
 	}
 }
@@ -63,7 +60,7 @@ function Next() {
 		index_no += 1;
 		load_track(index_no)
 		PlaySong();
-	}else {
+	} else {
 		index_no = 0;
 		load_track(index_no);
 		PlaySong();
@@ -75,7 +72,7 @@ function Return() {
 		index_no -= 1;
 		load_track(index_no)
 		PlaySong();
-	}else{
+	} else{
 		index_no = All_songs.length;
 		load_track(index_no);
 		PlaySong();
