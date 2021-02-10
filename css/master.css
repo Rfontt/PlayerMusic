@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+:root {
+	--background: #323256;
+	--icon-music: #FBD285;
+	--variant-white: #DCDCDC;
+	--button-color: #323256;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--background);
+}
+.container {
+	display: grid;
+	height: 100vh;
+	place-items: center;
+}
+.content-player {
+	text-align: center;
+}
+.image img {
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	border-radius: 50%;
+	transition: transform 450ms;
+}
+.image img:hover {
+	transform: scale(1.1);
+}
+.image, .informations, .duration {
+	margin-bottom: 1rem;
+}
+.informations h2 {
+	color: white;
+	font: 1.5rem 'Lato';
+}
+.informations i {
+	color: var(--icon-music);
+}
+.informations p {
+	font-size: 1rem;
+	color: var(--variant-white);
+}
+.informations h2, .informations i, .informations p {
+	margin-bottom: .6rem;
+}
+.players button {
+	margin: 0 .25rem;
+	padding: 1rem;
+	background: white;
+	border-radius: 50%;
+	border: none;
+}
+.players i {
+	color: var(--button-color);
+}
+.players button:hover {
+	background: var(--icon-music);
+}
